@@ -1,5 +1,5 @@
 /* ========================================
-   台北市鍋爐壓力容器協會 - 主要樣式
+   ?啣?撣????捆?典???- 銝餉?璅??
    ======================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700;900&family=Noto+Sans+TC:wght@300;400;500;700&family=Oswald:wght@400;600;700&display=swap');
@@ -354,7 +354,7 @@ ul { list-style: none; }
   font-weight: 500;
   flex-shrink: 0;
 }
-.marquee-inner span::before { content: '📢 '; }
+.marquee-inner span::before { content: '? '; }
 @keyframes marquee { to { transform: translateX(-50%); } }
 
 /* ---- SECTIONS ---- */
@@ -654,15 +654,15 @@ ul { list-style: none; }
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
 
 .about-image {
-  position: relative;
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  box-shadow: var(--shadow-lg);
+	position: relative;
+	border-radius: var(--radius-lg);
+	overflow: hidden;
+	box-shadow: var(--shadow-lg);
 }
 
 .about-image-placeholder {
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-  height: 360px;
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -678,7 +678,7 @@ ul { list-style: none; }
   color: var(--text-mid);
 }
 .mission-item::before {
-  content: '▸';
+  content: '??;
   color: var(--accent);
   font-weight: 700;
   flex-shrink: 0;
