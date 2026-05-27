@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>最新消息 – 台北市鍋爐壓力容器協會</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .page-hero { background: linear-gradient(135deg,var(--primary-dark) 0%,var(--primary) 100%); padding:56px 0 48px; color:#fff; }
+    .page-hero h1 { font-family:'Noto Serif TC',serif; font-size:clamp(1.4rem,3vw,2rem); font-weight:700; margin-bottom:8px; }
+    .breadcrumb { font-size:0.82rem; color:rgba(255,255,255,0.6); }
+    .breadcrumb a { color:rgba(255,255,255,0.7); }
+    .news-list { display:flex; flex-direction:column; gap:16px; padding:48px 0; }
+    .news-list-item {
+      display:flex; gap:20px; align-items:flex-start;
+      background:var(--bg-white); border:1px solid var(--border);
+      border-radius:var(--radius-lg); padding:20px 24px;
+      transition:var(--transition); box-shadow:var(--shadow);
+    }
+    .news-list-item:hover { border-color:var(--accent); transform:translateX(4px); }
+    .nl-date { flex-shrink:0; width:60px; text-align:center; }
+    .nl-day { font-family:'Oswald',sans-serif; font-size:1.8rem; font-weight:700; color:var(--primary); line-height:1; }
+    .nl-month { font-size:0.7rem; color:var(--text-light); }
+    .nl-year { font-size:0.7rem; color:var(--text-light); }
+    .nl-body { flex:1; min-width:0; }
+    .nl-tag { font-size:0.72rem; font-weight:700; color:var(--accent); letter-spacing:0.08em; margin-bottom:6px; }
+    .nl-title { font-size:0.95rem; font-weight:600; color:var(--text-dark); line-height:1.5; margin-bottom:8px; }
+    .nl-title:hover { color:var(--primary); }
+    .nl-excerpt { font-size:0.83rem; color:var(--text-light); line-height:1.7; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+    .filter-bar { background:var(--bg-light); border:1px solid var(--border); border-radius:var(--radius-lg); padding:16px 20px; display:flex; gap:10px; flex-wrap:wrap; margin-bottom:0; }
+    .filter-btn { padding:6px 16px; border-radius:20px; border:1px solid var(--border); background:#fff; color:var(--text-mid); font-size:0.82rem; cursor:pointer; transition:var(--transition); font-family:'Noto Sans TC',sans-serif; }
+    .filter-btn.active, .filter-btn:hover { background:var(--primary); color:#fff; border-color:var(--primary); }
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="header-main">
+      <a href="../index.html" class="logo-block">
+        <div class="logo-icon">🔩</div>
+        <div class="logo-text">
+          <div class="org-name">台北市鍋爐壓力容器協會</div>
+          <div class="org-sub">TAIPEI BOILER &amp; PRESSURE VESSEL ASSOCIATION</div>
+        </div>
+      </a>
+      <button class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></button>
+      <nav class="main-nav" id="mainNav">
+        <button class="nav-close" id="navClose">✕</button>
+        <ul>
+          <li><a href="about.html">協會簡介</a></li>
+          <li><a href="../index.html#courses">課程資訊</a></li>
+          <li class="active"><a href="news.html">最新消息</a></li>
+          <li><a href="../index.html#register">線上報名</a></li>
+          <li><a href="download.html">下載專區</a></li>
+          <li><a href="member.html">會員服務</a></li>
+          <li><a href="../index.html#contact">聯絡我們</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="../index.html">首頁</a> / 最新消息</div>
+    <h1>最新消息</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div style="padding-top:32px;">
+    <div class="filter-bar">
+      <span style="font-size:0.82rem;color:var(--text-light);font-weight:600;align-self:center;">篩選：</span>
+      <button class="filter-btn active">全部</button>
+      <button class="filter-btn">最新公告</button>
+      <button class="filter-btn">課程資訊</button>
+      <button class="filter-btn">徵才訊息</button>
+      <button class="filter-btn">法規公告</button>
+    </div>
+  </div>
+
+  <div class="news-list">
+    <a href="news-detail.html" class="news-list-item">
+      <div class="nl-date">
+        <div class="nl-day">18</div>
+        <div class="nl-month">APR</div>
+        <div class="nl-year">2025</div>
+      </div>
+      <div class="nl-body">
+        <div class="nl-tag">【最新公告】</div>
+        <div class="nl-title">115年度評鑑重新辦理，甲乙鍋及第一種壓力容器課程暫停辦理公告</div>
+        <div class="nl-excerpt">因機關單位今年度（115年）要求各協辦訓練單位重新評鑑，須於評鑑結果為甲等，方能辦理「甲乙鍋及第一種壓力容器」等技術士相關課程，所以目前協會暫時無法安排相關課程...</div>
+      </div>
+    </a>
+
+    <a href="news-detail.html" class="news-list-item">
+      <div class="nl-date">
+        <div class="nl-day">20</div>
+        <div class="nl-month">APR</div>
+        <div class="nl-year">2025</div>
+      </div>
+      <div class="nl-body">
+        <div class="nl-tag">【徵才訊息】</div>
+        <div class="nl-title">國防醫學院動物中心徵才 – 約用人員（須具備第一壓力容器執照）</div>
+        <div class="nl-excerpt">負責管理實驗動物的飼料墊料備品裝填消毒、管理帶領清潔人員進行清潔等工作。須具備第一壓力容器執照，須操作高溫高壓滅菌鍋...</div>
+      </div>
+    </a>
+
+    <a href="news-detail.html" class="news-list-item">
+      <div class="nl-date">
+        <div class="nl-day">03</div>
+        <div class="nl-month">MAR</div>
+        <div class="nl-year">2025</div>
+      </div>
+      <div class="nl-body">
+        <div class="nl-tag">【徵才訊息】</div>
+        <div class="nl-title">國立台灣師範大學 約用行政人員（鍋爐人員）徵才公告</div>
+        <div class="nl-excerpt">職務名稱：約用行政人員-鍋爐人員，用人單位：總務處學生宿舍管理中心，聯絡電話：02-7749-3322...</div>
+      </div>
+    </a>
+
+    <a href="news-detail.html" class="news-list-item">
+      <div class="nl-date">
+        <div class="nl-day">01</div>
+        <div class="nl-month">JAN</div>
+        <div class="nl-year">2025</div>
+      </div>
+      <div class="nl-body">
+        <div class="nl-tag">【協會公告】</div>
+        <div class="nl-title">協會教育訓練中心天然災害（颱風、地震）停課準則</div>
+        <div class="nl-excerpt">如遇颱風、地震…等天災，當天課程是否停課？因協會位於台北市，故一切依照「臺北市政府人事行政局公告之停止上班」為準，若當日停課之課程則另擇日再行辦理...</div>
+      </div>
+    </a>
+
+    <a href="news-detail.html" class="news-list-item">
+      <div class="nl-date">
+        <div class="nl-day">15</div>
+        <div class="nl-month">DEC</div>
+        <div class="nl-year">2024</div>
+      </div>
+      <div class="nl-body">
+        <div class="nl-tag">【法規公告】</div>
+        <div class="nl-title">台北市鍋爐壓力容器協會性騷擾防治法相關規定公告</div>
+        <div class="nl-excerpt">本協會及附設職業訓練中心依據性別工作平等法第13條、性騷擾防治法第7條等，特頒布禁止性騷擾之相關規定...</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<footer class="site-footer" style="padding-top:32px;">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:1px solid rgba(255,255,255,0.08);padding-top:16px;">
+      <div>© 2025 台北市鍋爐壓力容器協會 版權所有</div>
+      <a href="../index.html">← 回首頁</a>
+    </div>
+  </div>
+</footer>
+
+<button class="float-line-btn" id="floatLineBtn">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+</button>
+<button class="float-top-btn" id="floatTopBtn">↑</button>
+
+<script src="../js/main.js"></script>
+<script>
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
